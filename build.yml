@@ -1,4 +1,4 @@
-name: build
+name: .github/workflows/build.yml
 on: [push, workflow_dispatch]
 jobs:
   build:
