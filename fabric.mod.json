@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "cobweb_painting",
+  "version": "${version}",
+  "name": "Cobweb Painting",
+  "description": "Obrazy wieszaja sie za pajeczyna zamiast przed nia.",
+  "license": "CC0-1.0",
+  "environment": "*",
+  "mixins": ["cobweb_painting.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
